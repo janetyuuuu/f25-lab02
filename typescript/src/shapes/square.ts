@@ -1,8 +1,8 @@
 function square(sideLen: number): Shape {
+    const l = sideLen;
     return {
-        sideLen,
         computeArea: function (): number {
-            return sideLen * sideLen
+            return l * l
         }
     }
 }
